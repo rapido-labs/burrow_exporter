@@ -14,7 +14,7 @@ for i in dist/* ; do
   fi
 done
 
-ghr -t $GITHUB_TOKEN -u jirwin -r burrow_exporter --replace $VERSION releases/
+ghr -t $GITHUB_TOKEN -u rapido-labs -r burrow_exporter --replace $VERSION releases/
 
 rm -rf dist
 rm -rf releases
